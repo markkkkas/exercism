@@ -1,2 +1,5 @@
 # Exercism settings
 .exercism/
+
+# CPython things
+__pycache__/
