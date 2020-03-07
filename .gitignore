@@ -1,5 +1,15 @@
 # Exercism settings
 .exercism/
 
-# CPython things
+# CPython
 __pycache__/
+
+# Visual Studio Code
+.vscode/
+
+# JS
+node_modules/
+.eslintrc
+babel.config.js
+package-lock.json
+package.json
