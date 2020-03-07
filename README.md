@@ -6,6 +6,7 @@ This repository contains [my work](https://exercism.io/profiles/markasklapovsciu
 
 ### In progress
 - [Python](http://exercism.io/languages/python)
+- [JavaScript](https://exercism.io/my/tracks/javascript)
 
 ## License
 [MIT License](LICENSE)
