@@ -1,2 +1,1 @@
-export const gigasecond = (dateObject) =>
-  new Date(dateObject.getTime() + 10 ** 9 * 1000);
+export const gigasecond = (input) => new Date(Number(input) + 10e11);
