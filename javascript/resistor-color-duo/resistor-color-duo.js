@@ -3,7 +3,7 @@
 // convenience to get you started writing code faster.
 //
 
-export const COLORS = [
+const COLORS = [
   'black',
   'brown',
   'red',
@@ -13,15 +13,8 @@ export const COLORS = [
   'blue',
   'violet',
   'grey',
-  'white'
+  'white',
 ];
 
-export const decodedValue = (colors) => {
-  let value = '';
-
-  for (let i = 0; i < 2; i++) {
-    value += COLORS.indexOf(colors[i]);
-  }
-
-  return parseInt(value);
-};
+export const value = (input) =>
+  input.map((i) => COLORS.indexOf(i)).join('') | 0;

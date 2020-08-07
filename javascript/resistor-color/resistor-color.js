@@ -13,9 +13,9 @@ export const COLORS = [
   'blue',
   'violet',
   'grey',
-  'white'
+  'white',
 ];
 
 export const colorCode = (color) => {
-  return COLORS.indexOf(color)
+  return COLORS.indexOf(color);
 };
